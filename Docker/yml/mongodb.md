@@ -11,10 +11,10 @@ services:
     volumes:
       - /home/mongo:/data/db
     environment:
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: admin
+      MONGO_INITDB_ROOT_USERNAME: db_name
+      MONGO_INITDB_ROOT_PASSWORD: db_psd
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzI1NDgzMV19
+eyJoaXN0b3J5IjpbLTE4MTc5NjQwNzFdfQ==
 -->
